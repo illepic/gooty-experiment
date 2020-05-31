@@ -9,7 +9,7 @@ _core:
 id: gooty_local_tasks
 theme: gooty
 region: content
-weight: -40
+weight: -4
 provider: null
 plugin: local_tasks_block
 settings:
