@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1c8fcac6fc36f72906b9890860ebab45",
+    "content-hash": "b881759aec342de2cfb36eb1380a73d0",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2601,6 +2601,9 @@
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
                     }
+                },
+                "patches_applied": {
+                    "Drupal Gutenberg 2.0-beta1 patch": "https://www.drupal.org/files/issues/2020-05-31/3142486-fix-missing-fields-2.0-beta.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
@@ -8965,7 +8968,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/gutenberg": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
