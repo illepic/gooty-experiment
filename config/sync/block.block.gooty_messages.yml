@@ -1,0 +1,22 @@
+uuid: e491d0d3-7a6d-4dbe-9c00-289c78ba7dab
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gooty
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: gooty_messages
+theme: gooty
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

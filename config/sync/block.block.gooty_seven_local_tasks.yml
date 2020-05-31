@@ -1,0 +1,22 @@
+uuid: b81e1d98-df33-4a6a-bd6e-db3a96fb38ca
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gooty_seven
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: gooty_seven_local_tasks
+theme: gooty_seven
+region: header
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: false
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 7c8761ba-3326-4171-9f0a-cd826781df36
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - gooty
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: gooty_content
+theme: gooty
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: faad3ac9-ab24-4f79-b214-7767a089c3d2
+langcode: en
+status: true
+dependencies:
+  theme:
+    - gooty_seven
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: gooty_seven_local_actions
+theme: gooty_seven
+region: content
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 33c2b6f7-5f08-4e02-9575-a720c27f53cc
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - gooty_seven
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: gooty_seven_help
+theme: gooty_seven
+region: help
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }
