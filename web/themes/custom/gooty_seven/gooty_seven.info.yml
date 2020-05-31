@@ -1,0 +1,38 @@
+name: Gooty Seven
+type: theme
+description: 'An extension of Seven that provides some Gooty libraries and overrides'
+package: phase2
+core: 8.x
+base theme: seven
+# Copied from seven, since regions are not inherited
+regions:
+  header: 'Header'
+  pre_content: 'Pre-content'
+  breadcrumb: Breadcrumb
+  highlighted: Highlighted
+  help: Help
+  content: Content
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  sidebar_first: 'First sidebar'
+regions_hidden:
+  - sidebar_first
+libraries:
+  - gutenberg/seven
+  - gooty/base
+  - gooty_seven/global-styling
+  - gooty_seven/overrides
+# Blow away styles from modules/themes
+libraries-override:
+  # Remove Drupal core normalize
+  core/normalize: false
+  # Remove Seven's element styles
+  seven/global-styling:
+    css:
+      base:
+        css/base/elements.css: false
+  # Remove Gutenberg's elemen styles
+  # gutenberg/editor:
+  #   css:
+  #     theme:
+  #       vendor/gutenberg/editor/editor-styles.css: false

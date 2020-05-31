@@ -1,0 +1,15 @@
+{
+  "name": "gooty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "drupal-gutenberg-translations": "^1.1.0",
+    "drupal-js-build": "^1.2.0"
+  }
+}

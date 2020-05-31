@@ -1,0 +1,11 @@
+base:
+  css:
+    theme:
+      https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css: {}
+      gooty-styles.css: {}
+example-block-edit:
+  js:
+    js/index.js: {}
+  dependencies:
+    - gooty/base
+    # - gutenberg/edit-node

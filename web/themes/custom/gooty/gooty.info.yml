@@ -1,0 +1,25 @@
+name: gooty
+type: theme
+description: 'A theme to leverage Gutenberg'
+package: phase2
+core: 8.x
+base theme: classy
+dependencies:
+  - gutenberg
+libraries:
+  - gooty/base
+  # - gooty/example-block-edit
+# Blow away styles from modules/themes
+libraries-override:
+  # Remove Drupal core normalize
+  core/normalize: false
+  # Remove Seven's element styles
+  seven/global-styling:
+    css:
+      base:
+        css/base/elements.css: false
+  # Remove Gutenberg's elemen styles
+  # gutenberg/editor:
+  #   css:
+  #     theme:
+  #       vendor/gutenberg/editor/editor-styles.css: false

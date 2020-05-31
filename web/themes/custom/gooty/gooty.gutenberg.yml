@@ -1,0 +1,3 @@
+libraries-edit:
+  - gutenberg/edit-node
+  - gooty/example-block-edit
