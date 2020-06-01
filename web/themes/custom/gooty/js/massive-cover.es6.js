@@ -9,8 +9,8 @@ const __ = Drupal.t;
 console.log('Hello from P2 block');
 
 const settings = {
-  title: __('Phase2 Example Block'),
-  description: __('Phase2 Example Block'),
+  title: __('Phase2 Massive Cover'),
+  description: __('The big home page top area with a call to action and bg.'),
   icon: 'welcome-learn-more',
   attributes: {
     title: {
@@ -25,8 +25,6 @@ const settings = {
   },
 
   edit({ className, attributes, setAttributes, isSelected }) {
-
-    console.log(attributes);
 
     const { title, subtitle, text } = attributes;
 
@@ -130,4 +128,4 @@ const category = {
 const currentCategories = select('core/blocks').getCategories().filter(item => item.slug !== category.slug);
 dispatch('core/blocks').setCategories([ category, ...currentCategories ]);
 
-registerBlockType(`${category.slug}/p2-example-block`, { category: category.slug, ...settings });
+registerBlockType(`${category.slug}/p2-massive-cover`, { category: category.slug, ...settings });

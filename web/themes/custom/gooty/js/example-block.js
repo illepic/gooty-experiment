@@ -58,10 +58,6 @@ var settings = {
         attributes = _ref.attributes,
         setAttributes = _ref.setAttributes,
         isSelected = _ref.isSelected;
-
-
-    console.log(attributes);
-
     var title = attributes.title,
         subtitle = attributes.subtitle,
         text = attributes.text;

@@ -11,11 +11,6 @@ libraries:
 libraries-override:
   # Remove Drupal core normalize
   core/normalize: false
-  # Remove Seven's element styles
-  seven/global-styling:
-    css:
-      base:
-        css/base/elements.css: false
   # Remove Gutenberg's elemen styles
   # gutenberg/editor:
   #   css:

@@ -30,7 +30,7 @@ libraries-override:
     css:
       base:
         css/base/elements.css: false
-  # # Remove Gutenberg's elemen styles
+  # # Remove Gutenberg's element styles
   # gutenberg/editor:
   #   css:
   #     theme:

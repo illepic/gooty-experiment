@@ -5,7 +5,11 @@ base:
       css/gooty.css: {}
 example-block-edit:
   js:
-    js/index.js: {}
+    js/example-block.js: {}
   dependencies:
     - gooty/base
-    # - gutenberg/edit-node
+massive-cover:
+  js:
+    js/massive-cover.js: {}
+  dependendies:
+    - gooty/base
