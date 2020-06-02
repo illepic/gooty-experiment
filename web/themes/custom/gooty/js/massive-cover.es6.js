@@ -71,15 +71,14 @@ const settings = {
                 });
               }}
             />
+            <p>This is EDIT flerp derp herp hi ellie from edit.</p>
+
           </div>
           <div className="column">
-            <div className="icon">
-              <Icon icon="welcome-learn-more" />
-            </div>
             {isSelected && (
               <div className="info">
                 <p>This is Gutenberg's example block.</p>
-                <p>Nerp. To test it just fill the "fields" on the left and save.</p>
+                <p>To test it just fill the "fields" on the left and save.</p>
               </div>
             )}
           </div>
@@ -109,11 +108,10 @@ const settings = {
             <p>{text}</p>
           )}
         </div>
+        <button>This is button</button>
         <div className="column">
-          <p>Extra text here.</p>
-          <div className="icon">
-            <Icon icon="welcome-learn-more" />
-          </div>
+          <p>This is DISPLAY hi ellie hi ellie agaiasdfasdfasdfn.</p>
+          <p>New text here.</p>
         </div>
       </div>
     );

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b881759aec342de2cfb36eb1380a73d0",
+    "content-hash": "37b09f82127912ecb71a571d5c260784",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -2577,17 +2577,17 @@
         },
         {
             "name": "drupal/gutenberg",
-            "version": "2.0.0-beta1",
+            "version": "2.0.0-beta2",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/gutenberg.git",
-                "reference": "8.x-2.0-beta1"
+                "reference": "8.x-2.0-beta2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/gutenberg-8.x-2.0-beta1.zip",
-                "reference": "8.x-2.0-beta1",
-                "shasum": "10150122c637c2b23d902bd127931e44bb38cbbd"
+                "url": "https://ftp.drupal.org/files/projects/gutenberg-8.x-2.0-beta2.zip",
+                "reference": "8.x-2.0-beta2",
+                "shasum": "501faeab32d1f4a8b67a58419e1734227624b3aa"
             },
             "require": {
                 "drupal/core": "^8 || ^9"
@@ -2595,15 +2595,12 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.0-beta1",
-                    "datestamp": "1590150111",
+                    "version": "8.x-2.0-beta2",
+                    "datestamp": "1591026727",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Beta releases are not covered by Drupal security advisories."
                     }
-                },
-                "patches_applied": {
-                    "Drupal Gutenberg 2.0-beta1 patch": "https://www.drupal.org/files/issues/2020-05-31/3142486-fix-missing-fields-2.0-beta.patch"
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",

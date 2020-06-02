@@ -116,16 +116,16 @@ var settings = {
                 text: nextText
               });
             }
-          })
+          }),
+          React.createElement(
+            'p',
+            null,
+            'This is EDIT flerp derp herp hi ellie from edit.'
+          )
         ),
         React.createElement(
           'div',
           { className: 'column' },
-          React.createElement(
-            'div',
-            { className: 'icon' },
-            React.createElement(Icon, { icon: 'welcome-learn-more' })
-          ),
           isSelected && React.createElement(
             'div',
             { className: 'info' },
@@ -137,7 +137,7 @@ var settings = {
             React.createElement(
               'p',
               null,
-              'Nerp. To test it just fill the "fields" on the left and save.'
+              'To test it just fill the "fields" on the left and save.'
             )
           )
         )
@@ -188,17 +188,22 @@ var settings = {
         )
       ),
       React.createElement(
+        'button',
+        null,
+        'This is button'
+      ),
+      React.createElement(
         'div',
         { className: 'column' },
         React.createElement(
           'p',
           null,
-          'Extra text here.'
+          'This is DISPLAY hi ellie hi ellie agaiasdfasdfasdfn.'
         ),
         React.createElement(
-          'div',
-          { className: 'icon' },
-          React.createElement(Icon, { icon: 'welcome-learn-more' })
+          'p',
+          null,
+          'New text here.'
         )
       )
     );
